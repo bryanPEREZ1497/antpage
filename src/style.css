@@ -1,0 +1,16 @@
+@import '~antd/dist/antd.css';
+.icon {
+  font-size: 100px;
+}
+.col {
+  text-align: center;
+}
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 200px;
+}
+.Carousel {
+  width: 1100px;
+}
