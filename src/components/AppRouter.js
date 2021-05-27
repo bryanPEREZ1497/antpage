@@ -24,7 +24,6 @@ import Table from './ant/Table';
 import Modal from './ant/Modal';
 import Spin from './ant/Spin';
 import Pagination from './ant/Pagination';
-import Home from './Home';
 import MenuLateral from './MenuLateral';
 export default function AppRouter() {
   return (
@@ -32,9 +31,7 @@ export default function AppRouter() {
       <Router>
         <Layout>
           <Header>
-            <Link to="/home">
-              <h1 style={{ color: 'white' }}>Ant Components</h1>
-            </Link>
+            <h1 style={{ color: 'white' }}>Ant Components</h1>
           </Header>
           <Layout>
             <Sider>
@@ -56,12 +53,11 @@ export default function AppRouter() {
                   <Route exact path="/modal" component={Modal} />
                   <Route exact path="/spin" component={Spin} />
                   <Route exact path="/pagination" component={Pagination} />
-                  <Route exact path="/home" component={Home} />
                   <Route exact path="/dropdown" component={Dropdown} />
                   <Route exact path="/form" component={Form} />
                   <Route exact path="/tabs" component={Tabs} />
                   <Route exact path="/notification" component={Notification} />
-                  <Route path="/" component={Home} />
+                  <Route path="/" component={Icons} />
                 </Switch>
               </Row>
             </Content>

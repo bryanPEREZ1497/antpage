@@ -10,7 +10,5 @@
   align-items: flex-start;
   justify-content: center;
   margin-top: 200px;
-}
-.Carousel {
-  width: 1100px;
+  flex-wrap: wrap;
 }
